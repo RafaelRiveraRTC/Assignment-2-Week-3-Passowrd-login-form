@@ -17,15 +17,17 @@
             HorizontalAlignment="Left" TextWrapping="Wrap" 
                  VerticalAlignment="Top" 
                  Width="288" 
-                 TextChanged="TextBox_TextChanged" Canvas.Left="190" Canvas.Top="50"/>
+                 TextChanged="TextBox_TextChanged" 
+                 Canvas.Left="190" 
+                 Canvas.Top="50"/>
 
         <Label Content="Password" 
                HorizontalAlignment="Left" 
                Margin="190,80,0,0" 
                VerticalAlignment="Top"/>
         <PasswordBox 
-     x:Name="passwordInfoHere" 
-     Canvas.Left="190" 
+             x:Name="passwordInfoHere" 
+                Canvas.Left="190" 
               Canvas.Top="111" 
               Width="288" 
               HorizontalAlignment="Left" 
@@ -37,14 +39,18 @@
                 HorizontalAlignment="Left" 
                 VerticalAlignment="Top" 
                 Width="288" 
-                Click="Sign_Up_Here_Click" Canvas.Left="190" Canvas.Top="150"/>
+                Click="Sign_Up_Here_Click" 
+                Canvas.Left="190" 
+                Canvas.Top="150"/>
 
         <Button x:Name="Sign_In_Here" 
                 Content="Sign In" 
                 HorizontalAlignment="Left" 
                 VerticalAlignment="Top" 
                 Width="288" 
-                Click="Sign_In_Here_Click" Canvas.Left="190" Canvas.Top="191"/>
+                Click="Sign_In_Here_Click" 
+                Canvas.Left="190" 
+                Canvas.Top="191"/>
 
         <RichTextBox x:Name="totalInfoDisplay" TextChanged="RichTextBox_TextChanged" 
                      Canvas.Left="184" 
